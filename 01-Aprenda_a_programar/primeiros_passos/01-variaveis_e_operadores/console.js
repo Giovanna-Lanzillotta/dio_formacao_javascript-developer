@@ -1,3 +1,5 @@
+console.log("Olá mundo!🌎")
+
 
 let variavel = 10;
 variavel = 20;
