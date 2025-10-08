@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POKEDEX</title>
 
     <!-- nosso css -->
     <link rel="stylesheet" href="./assets/css/global.css">
@@ -25,29 +25,53 @@
 <body>
 
     <section class="content">
-        <h1>Pokedex</h1>
+        <h1>Pokédex</h1>
 
         <ol id="pokemonList" class="pokemons">
-           
+
+      
+
 
             <!-- .... Pokemons here .....-->
 
 
         </ol>
 
-        
+
+
+
         <div class="pagination">
             <button id="loadMoreButton" type="button">
-            Load More
-        </button>
+                Load More
+            </button>
         </div>
 
     </section>
 
     <!-- javaScript -->
-      <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
+
+   
+
+
+          <!-- modal pop-up -->
+            <div id="pokemon-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+
+                    <h2 id="modal-pokemon-name">Nome do Pokémon</h2>
+                    <p id="modal-pokemon-id">#ID</p>
+                    <img id="modal-pokemon-image" src="" alt="Imagem do Pokémon">
+
+                    <div id="modal-pokemon-details">
+                    </div>
+                </div>
+            </div>
+            <!-- fim do modal pop-up -->
+
+             <script src="./assets/js/modal.js"></script>
 
 </body>
 
