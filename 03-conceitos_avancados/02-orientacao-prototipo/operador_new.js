@@ -14,7 +14,7 @@ const renan = {
 }
 
 
-// console.log(new Pessoa('renan', 30))
+// console.log(new Pessoa('renan', 30)) - Pessoa { nome: 'renan', idade: 30 }
 // const renan = new Pessoa('renan', 30)
 Pessoa.call(renan, 'nome', 30)
 
