@@ -3,3 +3,10 @@
 </p>
 
  # Formação JavaScript Developer - Dio
+
+Aqui estão os desafios e códigos do curso Formação JavaScript Developer da Dio.me
+
+🐱‍💻O que foi utilizado:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="5%" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"  width="5%" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="5%"/>
+          
